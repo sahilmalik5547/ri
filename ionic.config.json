@@ -1,0 +1,7 @@
+{
+  "name": "ri",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

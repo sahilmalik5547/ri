@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-blue{
+    background-color: #1DA1F2;
+}
+.bg-custom-lightblue{
+    background-color: #1da0f21d;
+}
+.custom-blue{
+    color: #1DA1F2;
+}
+.custom-border-blue{
+    border-color: #1DA1F2;
+}
+.bg-custom-gray{
+    background-color: #f2f2f2;
+}
+.custom-gray{
+    color: #f2f2f2;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .fullscreen-dialog {
+    width: 100vw;
+    height: 100vh;
+    margin: 0; /* Remove any default margin */
+  }
+  
+  /* Custom dialog size for large screens */
+  .lg-dialog {
+    width: 500px;
+    height: 600px;
+  }

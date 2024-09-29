@@ -1,0 +1,7 @@
+.width{
+    min-width: 320px;
+}
+.active {
+    background-color: #1DA1F2; /* Example: A different blue shade */
+    color: white;
+}
